@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61EFF210-4F22-4B62-8D53-EB91B936BC18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EventReg</RootNamespace>
+    <AssemblyName>EventReg</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ECreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ECreate.Designer.cs">
+      <DependentUpon>ECreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPage.Designer.cs">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventRegDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FAQS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAQS.Designer.cs">
+      <DependentUpon>FAQS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accomidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accomidation.Designer.cs">
+      <DependentUpon>Accomidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMessage.Designer.cs">
+      <DependentUpon>ViewMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignedOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignedOut.Designer.cs">
+      <DependentUpon>SignedOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserFAQS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserFAQS.Designer.cs">
+      <DependentUpon>UserFAQS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserVolunteers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserVolunteers.Designer.cs">
+      <DependentUpon>UserVolunteers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Volunteers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Volunteers.Designer.cs">
+      <DependentUpon>Volunteers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyAccount.Designer.cs">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount.Designer.cs">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallRegister.Designer.cs">
+      <DependentUpon>HallRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UsersSign.cs" />
+    <Compile Include="EventRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventRegistry.Designer.cs">
+      <DependentUpon>EventRegistry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WriteMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WriteMessage.Designer.cs">
+      <DependentUpon>WriteMessage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accomidation.resx">
+      <DependentUpon>Accomidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ECreate.resx">
+      <DependentUpon>ECreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventRegistry.resx">
+      <DependentUpon>EventRegistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAQS.resx">
+      <DependentUpon>FAQS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyAccount.resx">
+      <DependentUpon>MyAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignedOut.resx">
+      <DependentUpon>SignedOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount.resx">
+      <DependentUpon>UserAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallRegister.resx">
+      <DependentUpon>HallRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserFAQS.resx">
+      <DependentUpon>UserFAQS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserVolunteers.resx">
+      <DependentUpon>UserVolunteers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMessage.resx">
+      <DependentUpon>ViewMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volunteers.resx">
+      <DependentUpon>Volunteers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WriteMessage.resx">
+      <DependentUpon>WriteMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="EventRegDataSet.xsc">
+      <DependentUpon>EventRegDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet.xss">
+      <DependentUpon>EventRegDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet1.xsc">
+      <DependentUpon>EventRegDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet1.xss">
+      <DependentUpon>EventRegDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet10.xsc">
+      <DependentUpon>EventRegDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet10.xss">
+      <DependentUpon>EventRegDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet2.xsc">
+      <DependentUpon>EventRegDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet2.xss">
+      <DependentUpon>EventRegDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet3.xsc">
+      <DependentUpon>EventRegDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet3.xss">
+      <DependentUpon>EventRegDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet4.xsc">
+      <DependentUpon>EventRegDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet4.xss">
+      <DependentUpon>EventRegDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet5.xsc">
+      <DependentUpon>EventRegDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet5.xss">
+      <DependentUpon>EventRegDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet6.xsc">
+      <DependentUpon>EventRegDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet6.xss">
+      <DependentUpon>EventRegDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet7.xsc">
+      <DependentUpon>EventRegDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet7.xss">
+      <DependentUpon>EventRegDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet8.xsc">
+      <DependentUpon>EventRegDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet8.xss">
+      <DependentUpon>EventRegDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet9.xsc">
+      <DependentUpon>EventRegDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="EventRegDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventRegDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventRegDataSet9.xss">
+      <DependentUpon>EventRegDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event-register-banner.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event-register-banner.png1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event-register-banner.png2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
