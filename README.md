@@ -8,7 +8,7 @@ Project Requirements:
 <h2> Problem Statement</h2>
 
 The Application has a login page where you have options to sign in or sign up. 
-♦	First time user must create an account by Sign-Up, where he provides the information required.
+First time user must create an account by Sign-Up, where he provides the information required.
 ♦	 Admin users can sign in directly.
 ♦	Once they Sign-up they can Sign-In with their username and password. 
 ♦	After signing in, a page with the available present and future events will open. To the left of the page you can find two tabs - My Account, My Events where My Account tab takes you to Account details page and My Events tab takes you to the page where you can view your present, past and future details. 
@@ -77,7 +77,7 @@ The Users are classified into Admin and other Users based on their role Admin or
 
 <h2> Extended Entity Relationship Model </h2>
 
-![Image 1](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 1](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/1.png)
 Relations:
 
 1.	For USERS, UserID is the primary key.
@@ -96,7 +96,7 @@ Functional dependency:
 2.	Event Name is functionally dependent on Event ID.
 
 <h2> Relational Schema</h2>
-![Image 1](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 2](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/2.png)
 
 <h2> Relational Alzebra </h2>
 1. TotalReg←Π_(Eventid,No of registrations)  (〖_Eventid〗I_(COUNT Regid) (REGISTRATION))
@@ -155,29 +155,30 @@ Result ← Π_Regid ( EventVol   ⋈_(E.Regid=Regid) LODGING)
    
 <h2> Creating Database Server in GCP</h2>
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 3](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/3.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 4](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/4.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 5](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/5.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 6](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/6.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 7](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/7.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 8](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/8.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 9](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/9.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 10](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/10.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 11](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/11.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 12](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/12.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 13](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/13.png)
 
-![Image 3](https://github.com/DivyaSamragniNadakuditi/Continouse-Integration-and-Continouse-Deployment-using-AWS/blob/master/images/1.png)
+![Image 14](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/14.png)
+
 
 
 
