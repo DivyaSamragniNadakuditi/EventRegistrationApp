@@ -96,8 +96,8 @@ Functional dependency:
 2.	Event Name is functionally dependent on Event ID.
 
 <h2> Relational Schema</h2>
-![Image 2](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/2.png)
 
+![Image 2](https://github.com/DivyaSamragniNadakuditi/EventRegistrationApp/blob/master/images/2.png)
 <h2> Relational Alzebra </h2>
 1. TotalReg←Π_(Eventid,No of registrations)  (〖_Eventid〗I_(COUNT Regid) (REGISTRATION))
   HallCap ← Π_(Eventid,Capacity) (HALLREGISTER)
